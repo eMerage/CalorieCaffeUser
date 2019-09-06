@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calorie Caffe</string>
+    <string name="default_notification_channel_id">21555</string>
+    <string name="fcm_message">Test</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+                name="user"
+                type="emarge.project.caloriecaffe.viewModel.UserLoginViewModel"/>
+    </data>
+
+    <LinearLayout
+                  android:id="@+id/bottom_sheet_reset"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#ffffff"
+                  android:orientation="vertical"
+                  android:padding="10dp"
+                  app:behavior_hideable="true"
+                  app:behavior_peekHeight="0dp"
+                  app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/button3"
+                    android:hint="Verification Code"
+                    android:ems="10"
+                    android:id="@+id/editText_verfycode"/>
+            <Button
+                    android:text="Verified"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#000000"
+                    android:id="@+id/button3" android:layout_marginBottom="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

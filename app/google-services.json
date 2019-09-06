@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "509725552648",
+    "firebase_url": "https://calorie-caffe.firebaseio.com",
+    "project_id": "calorie-caffe",
+    "storage_bucket": "calorie-caffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509725552648:android:2889de0b6f79a4bb",
+        "android_client_info": {
+          "package_name": "emarge.project.caloriecaffe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509725552648-6lcdm9vk9kv0qpocl377lhv4h82hujjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE6REiDVefdDQGF-ke3u-C9zFMXNUInos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
